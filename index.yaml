@@ -6,6 +6,30 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.0.8
+    created: "2023-01-20T15:22:50.770378697Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    digest: 617fa67ea455e0417cb8eef0d7f42a864bec2d38818c73139f21c99ef2e1da51
+    home: https://github.com/distorhead/helm-chart-example
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    name: redis
+    sources:
+    - https://github.com/bitnami/containers/tree/main/bitnami/redis
+    urls:
+    - https://github.com/distorhead/helm-chart-example/releases/download/redis-17.9.0/redis-17.9.0.tgz
+    version: 17.9.0
+  - annotations:
+      category: Database
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 7.0.8
     created: "2023-01-20T14:36:14.333036004Z"
     dependencies:
     - name: common
